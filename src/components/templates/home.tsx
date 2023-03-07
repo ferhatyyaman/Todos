@@ -1,5 +1,5 @@
 // Components
-import Example from "@/components/organisms/example"
+import List from "@/components/organisms/List"
 
 // Types
 type Props = {}
@@ -7,7 +7,7 @@ type Props = {}
 export default function HomeTemplate({}:Props) {
   return (
     <div className="">
-      <Example />
+      <List />
     </div>
   )
 }
